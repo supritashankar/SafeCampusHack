@@ -8,4 +8,4 @@ from django.views import View
 
 def index(request):
     context = {'message': 'Hi'}
-    return render(request, 'messenger/index.html', context)
+    return render(request, 'messenger/home.html', context)
