@@ -7,4 +7,5 @@ from django.views.generic.base import TemplateView
 from django.views import View
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the messenger index.")
+    context = {'message': 'Hi'}
+    return render(request, 'messenger/index.html', context)
