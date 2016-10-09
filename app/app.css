@@ -1,5 +1,5 @@
 /* app css stylesheet */
-
+/*
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -22,4 +22,28 @@
 .menu > li + li:before {
   content: "|";
   padding-right: 0.3em;
+}
+*/
+
+div.background {
+	border-bottom: solid 2px;
+	border-left: solid 2px;
+	margin-left: 25%;
+}
+
+div#messagerep {
+	margin: 10px;
+}
+
+div.messagebox {
+
+	text-align: left;
+	width: 100%;
+	overflow: scroll;
+}
+
+div#submissions {
+	margin-top: 20px;
+	float: left;
+	margin-left: 25%;
 }

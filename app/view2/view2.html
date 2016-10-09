@@ -1,5 +1,16 @@
-<p>This is the partial for view 2.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+
+<div class="background">
+	<div class="messagebox" ng-repeat="messages in MessageData">
+		<div id="messagerep">
+			<span>From: {{messages.id}}</span>
+			<br>
+			<span>{{messages.message}}</span>
+		</div>
+	</div>
+</div>
+
+<div id="submissions">
+<textarea placeholder="Type your message here"></textarea> 
+<br>
+<button class="btn-primary">Submit</button>
+</div>

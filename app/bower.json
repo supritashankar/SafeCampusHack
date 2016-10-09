@@ -1,0 +1,25 @@
+{
+  "name": "safecampushack",
+  "main": "app.js",
+  "homepage": "https://github.com/supritashankar/SafeCampusHack",
+  "authors": [
+    "Allen Guan <apguan@gmail.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap-simple-chat": "^0.4.0",
+    "angular-mocks": "~1.5.0",
+    "angular-loader": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "html5-boilerplate": "^5.3.0",
+    "angularjs-scroll-glue": "~0.0.1"
+  }
+}
